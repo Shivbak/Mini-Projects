@@ -1,12 +1,14 @@
 <html>
-<head>  
+<head> 
+    
+    <meta charset="UTF-8">
     
     <style>
     
     body
         {
-            //background-color:black;
-            //color: aliceblue;
+            background-color:black;
+            color: aliceblue;
             padding-left: 35%;
         }
         
@@ -19,8 +21,15 @@
     <h1> Interest-only calculator</h1>
         </div>
         <br>
-        <br>
+    
     <h3>Calculate the interest you will pay on loan</h3>
+    
+        Amount to Borrow : <input id="amount" type="number"/><br><br>
+        Interest Rate : <input id="interest" type="number"/><br><br>
+        Time of Loan : <input id="loantime" type="number" placeholder="In Month"/><br><br>
+        <button id="button">Calculate</button><br><br>
+        <div id="result1"></div><br><br>
+        <div id="result2"></div>
     <script src="calculatorjs.js"></script>
     </body>
 </html>
